@@ -27,17 +27,52 @@
                     <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
                         <div class="timeline-arrow"></div>
                         <h2 class="h5 mb-0 text-primary">Créer un dossier dans le terminal</h2>
-                        <p class="text-small mt-2 font-weight-light text-secondary">A l'aide la commande mkdir, je me crée un espace de travail propre et clair pour mes fichiers</p>
+                        <p class="text-small mt-2 font-weight-light text-secondary">A l'aide la commande <span class="text-primary">mkdir</span>, je me crée un espace de travail propre et clair pour mes fichiers</p>
                     </li>
                     <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
                         <div class="timeline-arrow"></div>
                         <h2 class="h5 mb-0 text-primary">Initialiser GIT dans le dossier</h2>
-                        <p class="text-small mt-2 font-weight-light text-secondary">Depuis mon dossier de travail, à l'aide de la commande git init je dis à GIT de commencer à tracker ce qui se trouve dans mon dossier</p>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Depuis mon dossier de travail, à l'aide de la commande <span class="text-primary">git init</span> je dis à GIT de commencer à tracker ce qui se trouve dans mon dossier</p>
                     </li>
                     <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
                         <div class="timeline-arrow"></div>
                         <h2 class="h5 mb-0 text-primary">Créer les fichiers nécessaires au développement</h2>
-                        <p class="text-small mt-2 font-weight-light text-secondary">Je crée l'ensemble des fichier dont je vais avoir besoin dans mon application afin que GIT puisse les suivre</p>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Je crée l'ensemble des fichier dont je vais avoir besoin dans mon application afin que GIT puisse les suivre. Pour cela, j'utilise la commande <span class="text-primary">touch</span></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Réaliser son premier commit</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Je sauvegarde la base de mon dossier. J'ajoute mes fichiers grâce à <span class="text-primary">git add -A</span>, puis je commit grâce à <span class="text-primary">git commit -m "message"</span></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Créer un repository GitHub</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Sur mon compte GitHub je crée un repository qui hébergera mon travail. Je le crée de préférence en <span class="text-primary">SSH</span> et je pense à lui donner le même nom que mon dossier local</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Ajouter la remote</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Grace à la commande <span class="text-primary">git remote add</span> j'ajoute le repository comme remote de mon dossier local. Les deux sont ainsi "connectés". Les commandes sont données sur GitHub</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Envoyer la branche master</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Je pousse la branche master sur GitHub en utilisant <span class="text-primary">git push origin master</span>. Ma branche master est ainsi sauvegardé sur GitHub</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Créer une branche de développement</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">En local afin de garder la branche master propre, je crée une branche dev avec la commande <span class="text-primary">git branch</span>. Je me mets sur cette branch avec <span class="text-primary">git checkout</span>. Dorénavant je ne travaille que sur cette branche.</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Envoyer la branche dev</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Je pousse la branche dev sur GitHub en utilisant <span class="text-primary">git push origin dev</span>. Ma branche dev est ainsi sauvegardé sur GitHub</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Développer</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Je travaille sur mon projet en faisant régulièrement des commits</p>
                     </li>
                 </ul><!-- End -->
 
