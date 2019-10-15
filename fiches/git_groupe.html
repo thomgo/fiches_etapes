@@ -26,8 +26,58 @@
                 <ul class="timeline">
                     <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
                         <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0 text-primary">Créer un dossier dans le terminal</h2>
-                        <p class="text-small mt-2 font-weight-light text-secondary">A l'aide la commande <span class="text-primary">mkdir</span>, je me crée un espace de travail propre et clair pour mes fichiers</p>
+                        <h2 class="h5 mb-0 text-primary">Choisir un chef de projet</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">En groupe décider d'une personne qui aura pour tâche supplémentaire de gérer le github du groupe</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Créer le dossier de travail</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Le chef de projet s'occupe de créer un dossier de travail avec une branche dev et master en local et sur GitHub. Voir <a href="git.html" class="text-primary">Git solo</a></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Inviter les collaborateurs</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Le chef de projet invite ses collaborateurs sur le repository GitHub nouvellement créé</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Cloner le dossier</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Chaque collaborateur clone le repository en local à l'aide de la commande <span class="text-primary">git clone</span></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Créer sa branche personnelle</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Chacun crée sa branche personnelle sur la base de la master et l'envoie sur GitHub avec la commande <span class="text-primary">git push</span></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Développer</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Chacun développe sur sa branche en local ce qui lui a été assigné en faisant régulièrement des commits</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Mettre à jour son projet</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Régulièrement et toujours au moins <span class="text-primary">avant un push</span>, faire un <span class="text-primary">git pull</span> de la master distante sur sa master locale puis un <span class="text-primary">git merge</span> de sa master vers sa dev afin de mettre à jour son travail par rapport aux autres</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Régler les conflits</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">S'il y a des conflits lors du merge, il faut les régler en local en donnant toujours la <span class="text-primary">priorité au travail venant de la master</span></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Envoyer son travail</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">J'envoie mon travail sur ma branche personnelle à l'aide de la commande <span class="text-primary">git push</span></p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Ouvrir une pull request</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Depuis GitHub, j'ouvre une <span class="text-primary">pull request</span> de ma branche vers la master ou la dev selon l'organisation du projet quand j'estime que mon code est intégrable</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 my-3 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0 text-primary">Validation de la pull request</h2>
+                        <p class="text-small mt-2 font-weight-light text-secondary">Le chef de projet choisit de <span class="text-primary">valider ou non</span> l'intégration de la pull request au travail de l'équipe depuis GitHub</p>
                     </li>
                 </ul><!-- End -->
 
